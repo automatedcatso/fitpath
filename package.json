@@ -9,8 +9,16 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-scripts": "^5.0.1"
+  },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "gh-pages": "^5.0.0",
+    "typescript": "^5.9.3"
   },
   "repository": {
     "type": "git",
@@ -21,6 +29,17 @@
     "workout",
     "fitpath"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
-

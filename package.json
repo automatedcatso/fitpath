@@ -1,0 +1,25 @@
+{
+  "name": "fitpath",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://<your-github-username>.github.io/<repo-name>",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-github-username>/<repo-name>.git"
+  },
+  "keywords": [
+    "fitness",
+    "workout",
+    "fitpath"
+  ],
+  "license": "MIT"
+}

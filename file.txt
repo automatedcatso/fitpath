@@ -1,0 +1,25 @@
+fitpath-app/
+├── public/
+├── src/
+│   ├── App.tsx ✅
+│   ├── index.tsx
+│   ├── components/
+│   │   ├── OnboardingForm.tsx ✅
+│   │   ├── RoutineDisplay.tsx ✅
+│   │   ├── ProgressTracker.tsx ✅
+│   │   ├── AICoach.tsx ✅
+│   │   └── ui/
+│   │       ├── button.tsx ✅
+│   │       ├── card.tsx ✅
+│   │       ├── label.tsx ✅
+│   │       └── radio-group.tsx ✅
+│   ├── utils/
+│   │   ├── generateRoutine.ts ✅
+│   │   └── storage.ts ✅
+│   ├── types/
+│   │   └── index.ts ✅
+│   └── lib/
+│       └── utils.ts ✅
+├── tailwind.config.js ✅
+├── package.json
+└── README.md

@@ -2,7 +2,7 @@
   "name": "fitpath",
   "version": "1.0.0",
   "private": false,
-  "homepage": "https://<your-github-username>.github.io/<repo-name>",
+  "homepage": "https://automatedcatso.github.io/fitpath",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-github-username>/<repo-name>.git"
+    "url": "https://github.com/automatedcatso/fitpath.git"
   },
   "keywords": [
     "fitness",
@@ -23,3 +23,4 @@
   ],
   "license": "MIT"
 }
+
